@@ -1,0 +1,25 @@
+#body {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#body td, #body th{
+    border: 1px solid #ddd;
+    width: 100%;
+    padding: 8px;
+}
+
+#body tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#body tr:hover{
+    background-color: #ddd;
+}
+
+#body th{
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #04AA6D;
+    color: white;
+}
